@@ -1,9 +1,18 @@
 <html>
   <body>
-    <h1>Hola</h1>
+    <h1>SALUDADOR</h1>
     <form id="saludador-form">
         <label for="Nombre">Tu nombre:</label>
         <input type="text" id="nombre" />
+        <p>
+          <label for="Genero">Tu genero:</label>
+          <select name="Genero" id="genero">
+              <option value="0">Elige un genero</option>
+              <option value="1">Mujer</option>
+              <option value="2">Hombre</option>
+              <option value="3">Otre</option>
+          </select>
+       </p>
         <input type="submit" value="Saludar" id="saludar-button" />
     </form>
     <div id="resultado-div"></div>

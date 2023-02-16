@@ -1,9 +1,6 @@
 //import sumar from "./sumador";
-
 const nombre = document.querySelector("#nombre");
-//var genero = document.querySelector("#genero").value;
-
-
+//alert(fecha);
 const form = document.querySelector("#saludador-form");
 const div = document.querySelector("#resultado-div");
 
@@ -50,6 +47,22 @@ var x="";
         }
     }
   }
-  div.innerHTML = "Hola "+ x + nombre.value;
+  var saludo="Hola";
+  if(fecha.getHours()<12)
+  {
+    saludo="Buenos días ";
+  }
+  else
+  {
+    if(fecha.getHours()<19)
+    {
+      saludo="Buenas Tardes ";
+    }
+    else
+    {
+      saludo="Buenas Noches ";
+    }
+  }
+  div.innerHTML = saludo+ x + nombre.value;
 });
 

@@ -5,7 +5,7 @@
   "default": "indexSaludador.html",
   "scripts": {
     "start": "parcel indexSaludador.html",
-    "build": "parcel build index.html",
+    "build": "parcel build indexSaludador.html",
     "test": "jest --watch",
     "test-once": "jest --verbose --coverage",
     "cypress": "cypress open",

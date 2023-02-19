@@ -9,14 +9,19 @@ form.addEventListener("submit", (event) => {
 var genero = document.querySelector("#genero").value;
 var idioma = document.querySelector("#idioma").value;
 var edad=document.querySelector("#edad").value;
+var titulo="";
 if(idioma=="0")
 {
   if(edad==="")
   {
-    var titulo=" ";
+    titulo="";
   }
   if(edad>30 || edad==="")
   {
+    if(genero=="0")
+    {
+      titulo="";
+    }
     if (genero === "1") 
     {
       titulo = "Sra. ";
@@ -63,7 +68,7 @@ else
 {
   if(edad==="")
   {
-    titulo=" ";
+    titulo="";
   }
   if(edad>30 || edad==="")
   {

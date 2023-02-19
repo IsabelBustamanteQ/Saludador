@@ -13,7 +13,7 @@ if(idioma=="0")
 {
   if(edad==="")
   {
-    titulo="";
+    titulo=" ";
   }
   if(edad>30 || edad==="")
   {
@@ -63,7 +63,7 @@ else
 {
   if(edad==="")
   {
-    titulo="";
+    titulo=" ";
   }
   if(edad>30 || edad==="")
   {

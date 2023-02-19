@@ -13,7 +13,7 @@ if(idioma=="0")
 {
   if(edad==="")
   {
-    titulo=" ";
+    var titulo=" ";
   }
   if(edad>30 || edad==="")
   {

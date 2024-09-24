@@ -20,5 +20,8 @@
     "cypress": "^10.11.0",
     "jest": "^27.4.7",
     "parcel": "^2.2.0"
+  },
+  "dependencies": {
+    "parcel-jest-base": "file:"
   }
 }
